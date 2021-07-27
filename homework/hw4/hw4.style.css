@@ -1,0 +1,12 @@
+body {
+  background-color: #412cff;
+}
+
+header {
+  background-color: rgb(243, 215, 179);
+}
+
+footer {
+  padding: .5em;
+  background-color: #e0e0e0;
+}
