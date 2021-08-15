@@ -27,14 +27,17 @@ footer {
   width: 57%;
 }
 .p1 {
+  background-color: #006aff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   width: 47%;
-  color:#006aff;;
+  color: white;
+  border: 1px solid;
+  padding: 0.5rem 0.5rem;
+  border-radius: 25px;
 }
 .p2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:#006aff;
 }
 h2 {
   background-color: #006aff;
@@ -68,20 +71,4 @@ h4 {
 }
 ol {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-nav{
-  overflow: hidden;
-  background-color: royalblue;
-  border-radius: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-nav > a{
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
 }
