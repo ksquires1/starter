@@ -39,6 +39,4 @@ function addEventListeners(st) {
     let Header = document.querySelector("header");
     Header.style.display = "none";
   }
-  if (st.view === "Home") {
-  }
 }
