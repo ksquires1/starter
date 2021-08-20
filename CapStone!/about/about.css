@@ -1,0 +1,33 @@
+.p1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  width: 47%;
+}
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #006aff;
+  color: white;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #006aff;
+  width: 47%;
+  color: white;
+  border: 1px solid;
+  padding: 0.5rem 0.5rem;
+  border-radius: 25px;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #006aff;
+  width: 34%;
+  color: white;
+  border: 1px solid;
+  padding: 0.5rem 0.5rem;
+  border-radius: 25px;
+}
+.p2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  width: 47%;
+}

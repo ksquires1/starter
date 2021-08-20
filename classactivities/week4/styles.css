@@ -1,9 +1,9 @@
 body {
-  background-color: #BC8DA0;
+  background-color: #ffb0e7;
 }
 
 .nav-bar {
-  background-color: #A04668;
+  background-color: #401fd3;
   padding: 1em;
   color: #D9D0DE;
   font-size: 1.2em;
@@ -18,5 +18,5 @@ nav > ul > li {
 
 footer {
   padding: .5em;
-  background-color: #ADA8B6;
+  background-color: #464646;
 }

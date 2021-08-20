@@ -5,8 +5,22 @@ body {
 header {
   background-color: rgb(243, 215, 179);
 }
+.p1 {
+  flex-direction: wrap;
+  width: 33%;
+}
 
+h2 {
+  background-color: brown;
+  width: 10%;
+}
+
+h3 {
+  background-color: brown;
+  width: 10%;
+}
 footer {
   padding: .5em;
-  background-color: #e0e0e0;
+  background-color: rgb(243, 215, 179);
 }
+
