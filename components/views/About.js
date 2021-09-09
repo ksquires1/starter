@@ -1,6 +1,6 @@
 import html from "html-literal";
 
-export default () => html`
+export default (st) => html`
   <header>
     <h1>About Kreators.</h1>
   </header>
@@ -34,4 +34,11 @@ export default () => html`
     to images in InDesign. It is also used to create professional work like
     flyers, posters, brochures, magazines, newspapers, and books.
   </p>
+  <div>
+    ${
+      st.photos.map(photo=>{
+        return `<img src="https://www.artic.edu/iiif/2/${photo.image_id}/full/843,/0/default.jpg " style="height:120px">`;
+      })
+    }
+  </div>
 `;

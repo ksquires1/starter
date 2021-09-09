@@ -2,8 +2,28 @@ import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./Store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
+import axios from "axios";
 
-const router = new Navigo("window.location.origin");
+const router = new Navigo(window.location.origin);
+
+router.hooks({
+  before: (done,params)=>{
+    console.log(params);
+    const page = params && params.hasOwnProperty("page") ? capitalize(params.page) : "Home";
+    switch(page){
+      case "About":
+        axios.get("https://api.artic.edu/api/v1/artworks")
+        .then(response=>{
+          console.log (response);
+          state.About.photos=response.data.data
+          done();
+        })
+      break;
+      default:
+        done();
+    }
+  }
+})
 
 router
   .on({
@@ -40,3 +60,4 @@ function addEventListeners(st) {
     Header.style.display = "none";
   }
 }
+axios.get(`https://api.artic.edu/api/v1/artworks`).then(response=>{console.log("artworks")});
